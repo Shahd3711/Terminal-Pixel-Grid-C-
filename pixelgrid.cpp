@@ -12,13 +12,13 @@ using namespace std;
 
 //WINDOWS
 #ifdef _WIN32
-static unordered_map<string, int> winColors = {
+/*static unordered_map<string, int> winColors = {
     {"black", 0}, {"blue", 1}, {"green", 2}, {"cyan", 3},
     {"red", 4}, {"magenta", 5}, {"yellow", 6}, {"white", 7},
     {"bright_black", 8}, {"bright_blue", 9}, {"bright_green", 10},
     {"bright_cyan", 11}, {"bright_red", 12}, {"bright_magenta", 13},
     {"bright_yellow", 14}, {"bright_white", 15}
-};
+};*/
 
 void printAt(int x, int y, const string& text, const string& colorName) {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
